@@ -1,4 +1,4 @@
-const Mux = require("@mux/mux-node");
+const Mux = require("@mux/mux-node").default;
 require("dotenv").config();
 const express = require("express");
 const bodyParser = require("body-parser");
